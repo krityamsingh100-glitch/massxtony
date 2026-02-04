@@ -18,7 +18,7 @@ class Config:
     # 限制配置
     REPORT_COOLDOWN: int = int(os.environ.get("REPORT_COOLDOWN", 5))
     MAX_ACCOUNTS: int = int(os.environ.get("MAX_ACCOUNTS", 10))
-    MAX_REPORTS_PER_DAY: int = 100  # 每日最大举报次数
+    MAX_REPORTS_PER_DAY: int = 400  # 每日最大举报次数
     
     # 路径配置
     CONFIG_PATH: str = "config.json"
